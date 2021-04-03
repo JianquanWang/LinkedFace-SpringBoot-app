@@ -1,0 +1,14 @@
+debug: false
+logging:
+  level:
+    root: info
+  file:
+    name: /local/user/app-prd.log
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/linkedface
+    username: root
+    password: 957966
+server:
+  port: 80
